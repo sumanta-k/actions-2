@@ -26,6 +26,11 @@ jobs:
 
       - name: RUN THE TESTS
         run: npm run test >> test.log
+      - name: UPLOAD ARTIFACT TO NEXT JOB
+        uses: actions/upload-artifact@v7
+        with:
+          name: test-artifact
+          path: test.log
 
   test:
     needs: development
