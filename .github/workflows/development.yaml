@@ -1,0 +1,17 @@
+name: developemnt workflow
+on: [push]
+
+jobs:
+  development:
+    runs-on: ubuntu-latest
+
+    steps:
+      # clone the repo first
+      - name: First Check Out REPO
+        uses: actions/checkout@v7
+
+      - name: LIST ALL THE FILES
+        run: ls -ltr
+
+      - name: show which os-version is being used RIGHT NOW
+        run: cat /etc/os-release
