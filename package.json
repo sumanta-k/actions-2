@@ -1,0 +1,27 @@
+{
+  "name": "actions-2",
+  "version": "1.0.0",
+  "description": "- going to use this repo for node.js, express with github actions for testing - and also gonna use `jest`",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanta-k/actions-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sumanta-k/actions-2/issues"
+  },
+  "homepage": "https://github.com/sumanta-k/actions-2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
