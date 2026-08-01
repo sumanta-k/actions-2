@@ -20,3 +20,9 @@ jobs:
 
       - name: show the GITHUB_REPOSITORY which is currently being used !!!
         run: echo ${{github.repositoryUrl}}
+
+      - name: INSTALL WHATEVER SOFTWARE IT NEEDS
+        run: npm install
+
+      - name: RUN THE TESTS
+        run: npm run test
