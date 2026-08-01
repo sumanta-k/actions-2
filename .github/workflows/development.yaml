@@ -38,9 +38,8 @@ jobs:
 
     steps:
       - name: GET THE TEST FILE FROM PREVIOUS JOB
-        uses: actions/upload-artifact@v7
+        uses: actions/download-artifact@v7
         with:
           name: test-artifact
-          path: test.log
       - name: SEE THE TEST
         run: cat test.log
