@@ -16,3 +16,6 @@ jobs:
 
       - name: show which os-version is being used RIGHT NOW
         run: cat /etc/os-release
+
+      - name: show the GITHUB_REPOSITORY which is currently being used !!!
+        run: print ${{ github.repository }}
