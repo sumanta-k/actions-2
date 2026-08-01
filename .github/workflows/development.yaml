@@ -19,4 +19,4 @@ jobs:
         run: cat /etc/os-release
 
       - name: show the GITHUB_REPOSITORY which is currently being used !!!
-        run: echo "CURRENT REPO: ${{ github.repository }} "
+        run: echo "CURRENT REPO: ${{github.repository}}"
