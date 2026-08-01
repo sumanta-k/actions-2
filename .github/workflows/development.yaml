@@ -9,7 +9,8 @@ jobs:
       # clone the repo first
       - name: First Check Out REPO
         uses: actions/checkout@v7
-        with: ${{ github.repository }}
+        with:
+          repository: ${{ github.repository }}
 
       - name: LIST ALL THE FILES
         run: ls -ltr
